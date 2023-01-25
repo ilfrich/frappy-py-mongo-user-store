@@ -1,7 +1,7 @@
 import hashlib
 import secrets
 from typing import List, Tuple, Optional
-from pbu import AbstractMongoStore, AbstractMongoDocument
+from pbumongo import AbstractMongoStore, AbstractMongoDocument
 
 
 class User(AbstractMongoDocument):

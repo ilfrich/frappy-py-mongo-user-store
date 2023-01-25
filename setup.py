@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(name="frappymongouser",
-      version="1.5.0",
+      version="1.5.1",
       description="Store Implementation for Users in MongoDB",
       long_description=long_description,
       long_description_content_type="text/markdown",
@@ -15,7 +15,8 @@ setup(name="frappymongouser",
           "frappymongouser"
       ],
       install_requires=[
-            "pbu",
+            "pbu>=1.0.0",
+            "pbumongo>=1.0.0"
       ],
       tests_require=[
           "pytest",

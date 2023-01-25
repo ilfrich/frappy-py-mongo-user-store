@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
-from pbu import AbstractMongoDocument, AbstractMongoStore, default_options
+from pbumongo import AbstractMongoDocument, AbstractMongoStore
+from pbu import default_options
 
 
 class UserToken(AbstractMongoDocument):
